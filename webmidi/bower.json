@@ -1,0 +1,21 @@
+{
+  "name": "webmidi",
+  "homepage": "https://github.com/anthonyray/il-est-midi",
+  "authors": [
+    "anthonyray <dantho361@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "WebMidi": "^2.0.0-rc.5"
+  }
+}
