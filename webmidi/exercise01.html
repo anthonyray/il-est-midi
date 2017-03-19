@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Il est MIDI</title>
+  </head>
+  <body>
+    <p> Score : <span id="score"></span></p>
+    <p> <span id="currentQuestion"></span> / <span id="numberOfQuestions"></span> </p>
+    <div><button id="skipButton">skip</button></div>
+    <p> Play Chord : <span id="chord"></span></p>
+    <p>Notes : <b id="notes"></b></p>
+    <div><button id="trueButton">true</button></div>
+    <div><button id="falseButton">false</button></div>
+    <p id="completed" style="display: none"><b>Completed!</b></p>
+  </body>
+  <script src="bower_components/lodash/lodash.js"></script>
+  <script src="bower_components/jQuery/dist/jquery.js"></script>
+  <script src="bower_components/WebMidi/src/webmidi.js"></script>
+  <script src="scale.js"></script>
+  <script src="chord.js"></script>
+  <script src="question.js"></script>
+  <script src="score.js"></script>
+  <script src="exercise.js"></script>
+  <script src="exercise01.js"></script>
+</html>
